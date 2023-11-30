@@ -1,0 +1,8 @@
+---
+- name: Touch a file on EC2 instance
+  hosts: ec2:pswd
+  become: no  # Use sudo to run commands
+
+  tasks:
+    - name: Touch the file
+      command: touch ~/ansible-test-file.txt

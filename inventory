@@ -1,0 +1,2 @@
+[ec2]
+pswd ansible_ssh_host=ec2-52-23-242-19.compute-1.amazonaws.com ansible_user=ec2-user
